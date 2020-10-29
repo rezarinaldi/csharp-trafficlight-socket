@@ -1,0 +1,10 @@
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\bin\Debug\TrafficColorSocket-Client.exe.config
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\bin\Debug\TrafficColorSocket-Client.exe
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\bin\Debug\TrafficColorSocket-Client.pdb
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficColorSocket_Client.Form1.resources
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficColorSocket_Client.Properties.Resources.resources
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficLightSocket-Client.csproj.GenerateResource.cache
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficLightSocket-Client.csproj.CoreCompileInputs.cache
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficColorSocket-Client.exe
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficColorSocket-Client.pdb
+E:\kuliah\semester5\jaringan\project\CSharpTrafficColorSocket\TrafficColorSocket-Client\obj\Debug\TrafficLightSocket-Client.csprojAssemblyReference.cache
