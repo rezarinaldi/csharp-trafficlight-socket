@@ -34,9 +34,9 @@
             this.txtIPServer = new System.Windows.Forms.TextBox();
             this.txtPortServer = new System.Windows.Forms.TextBox();
             this.btnListen = new System.Windows.Forms.Button();
-            this.panelMerah = new System.Windows.Forms.Panel();
-            this.panelKuning = new System.Windows.Forms.Panel();
-            this.panelHijau = new System.Windows.Forms.Panel();
+            this.redPanel = new System.Windows.Forms.Panel();
+            this.yellowPanel = new System.Windows.Forms.Panel();
+            this.greenPanel = new System.Windows.Forms.Panel();
             this.timerServer = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.txtStatusLabel = new System.Windows.Forms.Label();
@@ -86,29 +86,29 @@
             this.btnListen.UseVisualStyleBackColor = true;
             this.btnListen.Click += new System.EventHandler(this.btnListen_Click);
             // 
-            // panelMerah
+            // redPanel
             // 
-            this.panelMerah.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panelMerah.Location = new System.Drawing.Point(18, 159);
-            this.panelMerah.Name = "panelMerah";
-            this.panelMerah.Size = new System.Drawing.Size(104, 93);
-            this.panelMerah.TabIndex = 6;
+            this.redPanel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.redPanel.Location = new System.Drawing.Point(18, 159);
+            this.redPanel.Name = "redPanel";
+            this.redPanel.Size = new System.Drawing.Size(104, 93);
+            this.redPanel.TabIndex = 6;
             // 
-            // panelKuning
+            // yellowPanel
             // 
-            this.panelKuning.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panelKuning.Location = new System.Drawing.Point(153, 159);
-            this.panelKuning.Name = "panelKuning";
-            this.panelKuning.Size = new System.Drawing.Size(104, 93);
-            this.panelKuning.TabIndex = 7;
+            this.yellowPanel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.yellowPanel.Location = new System.Drawing.Point(153, 159);
+            this.yellowPanel.Name = "yellowPanel";
+            this.yellowPanel.Size = new System.Drawing.Size(104, 93);
+            this.yellowPanel.TabIndex = 7;
             // 
-            // panelHijau
+            // greenPanel
             // 
-            this.panelHijau.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panelHijau.Location = new System.Drawing.Point(287, 159);
-            this.panelHijau.Name = "panelHijau";
-            this.panelHijau.Size = new System.Drawing.Size(104, 93);
-            this.panelHijau.TabIndex = 7;
+            this.greenPanel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.greenPanel.Location = new System.Drawing.Point(287, 159);
+            this.greenPanel.Name = "greenPanel";
+            this.greenPanel.Size = new System.Drawing.Size(104, 93);
+            this.greenPanel.TabIndex = 7;
             // 
             // timerServer
             // 
@@ -142,9 +142,9 @@
             this.ClientSize = new System.Drawing.Size(410, 390);
             this.Controls.Add(this.txtStatusLabel);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelKuning);
-            this.Controls.Add(this.panelHijau);
-            this.Controls.Add(this.panelMerah);
+            this.Controls.Add(this.yellowPanel);
+            this.Controls.Add(this.greenPanel);
+            this.Controls.Add(this.redPanel);
             this.Controls.Add(this.btnListen);
             this.Controls.Add(this.txtPortServer);
             this.Controls.Add(this.txtIPServer);
@@ -165,9 +165,9 @@
         private System.Windows.Forms.TextBox txtIPServer;
         private System.Windows.Forms.TextBox txtPortServer;
         private System.Windows.Forms.Button btnListen;
-        private System.Windows.Forms.Panel panelMerah;
-        private System.Windows.Forms.Panel panelKuning;
-        private System.Windows.Forms.Panel panelHijau;
+        private System.Windows.Forms.Panel redPanel;
+        private System.Windows.Forms.Panel yellowPanel;
+        private System.Windows.Forms.Panel greenPanel;
         private System.Windows.Forms.Timer timerServer;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label txtStatusLabel;

@@ -16,7 +16,7 @@ namespace TrafficColorSocket_Client
             {
                 varGlobal.alamatIPServer = txtIPClient.Text;
                 varGlobal.port = Int16.Parse(txtPortClient.Text);
-                SocketTCP.StartClient("Red,On");
+                SocketTCP.StartClient("Red,On,");
             }
         }
 
@@ -26,7 +26,7 @@ namespace TrafficColorSocket_Client
             {
                 varGlobal.alamatIPServer = txtIPClient.Text;
                 varGlobal.port = Int16.Parse(txtPortClient.Text);
-                SocketTCP.StartClient("Red,Off");
+                SocketTCP.StartClient("Red,Off,");
             }
         }
 
@@ -34,28 +34,28 @@ namespace TrafficColorSocket_Client
         {
             varGlobal.alamatIPServer = txtIPClient.Text;
             varGlobal.port = Int16.Parse(txtPortClient.Text);
-            SocketTCP.StartClient("Yellow,On");
+            SocketTCP.StartClient("Yellow,On,");
         }
 
         private void rBKuningOff_CheckedChanged(object sender, EventArgs e)
         {
             varGlobal.alamatIPServer = txtIPClient.Text;
             varGlobal.port = Int16.Parse(txtPortClient.Text);
-            SocketTCP.StartClient("Yellow,Off");
+            SocketTCP.StartClient("Yellow,Off,");
         }
 
         private void rBHijauOn_CheckedChanged(object sender, EventArgs e)
         {
             varGlobal.alamatIPServer = txtIPClient.Text;
             varGlobal.port = Int16.Parse(txtPortClient.Text);
-            SocketTCP.StartClient("Green,On");
+            SocketTCP.StartClient("Green,On,");
         }
 
         private void rBHijauOff_CheckedChanged(object sender, EventArgs e)
         {
             varGlobal.alamatIPServer = txtIPClient.Text;
             varGlobal.port = Int16.Parse(txtPortClient.Text);
-            SocketTCP.StartClient("Green,Off");
+            SocketTCP.StartClient("Green,Off,");
         }
 
         private void Form1_Load(object sender, EventArgs e)

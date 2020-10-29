@@ -58,13 +58,13 @@ namespace TrafficColorSocket_Server
             switch (tmp[0])
             {
                 case "Red":
-                    panelMerah.BackColor = color;
+                    redPanel.BackColor = color;
                     break;
                 case "Yellow":
-                    panelKuning.BackColor = color;
+                    yellowPanel.BackColor = color;
                     break;
                 case "Green":
-                    panelHijau.BackColor = color;
+                    greenPanel.BackColor = color;
                     break;
             }
         }
